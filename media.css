@@ -1,0 +1,12 @@
+@media (max-width:768px) {
+    .hero-container {
+        grid-template-columns: 70px 1fr;/*una estaticas y una dinamica*/
+    grid-template-areas: "badge title "
+                         "description description " 
+                         " form form " 
+                         "countdown  countdown " ;/*cambie de lugar lo puse abajo*/
+                         
+                         
+    }
+    
+}
